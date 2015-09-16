@@ -1,4 +1,4 @@
-function display_alert&#40;&#41;{
-	alert&#40;&#34;Hello!&#34;&#41;;
+function display_alert(){
+	alert("xss");
 }
 window.onload = display_alert;
